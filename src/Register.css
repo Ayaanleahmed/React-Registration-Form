@@ -1,0 +1,51 @@
+.fullInfo {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white; /* Ensures text is visible on a black background */
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide, .rightSide {
+    flex: 1;
+    margin: 0 10px;
+}
+
+button {
+    width: 360px;
+    display: block;
+    margin: 20px auto; /* Centers the button horizontally */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    flex: 1;
+    margin: 0 10px;
+}
+
+
+.clearInfo{
+    background-color: red;
+    padding: 11px;
+    width: 500px;
+    border-radius: 10px; /* Ensures text is visible on a black background */
+}
